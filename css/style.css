@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Charm&family=Sarabun:wght@200&family=Sriracha&display=swap');
+
+body{
+    font-size: 22;
+}
+
+main{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+p{
+    font-family: 'Sarabun', sans-serif;
+}
+
+.highlight{
+    background-color: deepskyblue;
+}
+
+#pchide{
+    color: darkmagenta;
+}
+
+/* ul .li-class{
+    font-size: 40px;
+    color: red;
+} */
+
+/* ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color:khaki;
+    font-size: 36px;
+    font-weight: 700;
+    list-style-image: url(/images/checklist.png);
+}
+
+ul li:not(:last-child){
+    color: darkcyan;
+} */
+
+a{
+    font-size: 44px;
+    color: blue;
+}
+
+a:focus{
+    color: green;
+}
+
+a:hover{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:active{
+    color: red;
+}
+
+/* ---CSS DISPLAY--- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0.5rem;
+}
