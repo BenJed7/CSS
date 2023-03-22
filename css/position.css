@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -59,3 +60,55 @@ body {
     position: sticky;
     top: 0;
 }
+
+section {
+    height: 100vh;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+header, footer {
+    color: #fff;
+    text-align: center;
+    height: 100px;
+}
+
+header{
+    font-size: 5rem;
+    position: sticky;
+    top: 0;
+}
+
+footer{
+    background-color: #000;
+    position: sticky;
+    bottom: 0;
+    font-size: 3rem;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.social {
+    background-color: royalblue;
+    color: #fff;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    z-index: 1;
+    bottom: 15%;
+    right: 5%;
+}
+
